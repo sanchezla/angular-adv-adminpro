@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 // Components
 import { BreadcrumsComponent } from '../shared/breadcrums/breadcrums.component';
@@ -24,7 +25,8 @@ import { FooterComponent } from '../shared/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class SharedModule { }

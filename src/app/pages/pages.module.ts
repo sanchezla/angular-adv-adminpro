@@ -12,6 +12,7 @@ import { PagesComponent } from '../pages/pages.component';
 import { DashboardComponent } from '../pages/dashboard/dashboard.component';
 import { ProgressComponent } from '../pages/progress/progress.component';
 import { Grafica1Component } from '../pages/grafica1/grafica1.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { Grafica1Component } from '../pages/grafica1/grafica1.component';
     PagesComponent,
     ProgressComponent,
     Grafica1Component,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
   ],
   imports: [
     FormsModule,
@@ -32,7 +34,8 @@ import { Grafica1Component } from '../pages/grafica1/grafica1.component';
     PagesComponent,
     ProgressComponent,
     Grafica1Component,
-    DashboardComponent
+    DashboardComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
